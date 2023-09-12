@@ -46,8 +46,6 @@ a:hover {
 }
 .signin-button:hover {
   background-color: #1b66c9;
-  box-shadow: 0 1px 3px 1px rgba(66, 64, 67, 0.15),
-    0 1px 2px 0 rgba(60, 64, 67, 0.3);
 }
 .google-logo {
   display: flex;
@@ -161,7 +159,6 @@ button:hover {
   height: 46px;
   font-size: 15px;
   background-color: #f3f3f3;
-  justify-content: last baseline;
 }
 .footer a {
   color: #70757a;
@@ -247,28 +244,28 @@ button:hover {
   .search-bar {
     height: 40px;
   }
-@media (max-width: 320px) {
-  #one {
-    width: 105px;
-    height: 25px;
+  @media (max-width: 320px) {
+    #one {
+      width: 105px;
+      height: 25px;
+    }
+    .search-bar {
+      width: 225px;
+    }
+    img {
+      height: 100%;
+      width: 160px;
+    }
+    button {
+      width: 80px;
+      height: auto;
+      font-size: smaller;
+    }
+    .last-bar {
+      font-size: 11px;
+    }
+    .footer-right {
+      margin-right: 10px;
+    }
   }
-  .search-bar {
-    width: 225px;
-  }
-  img {
-    height: 100%;
-    width: 160px;
-  }
-  button {
-    width: 80px;
-    height: auto;
-    font-size: smaller;
-  }
-  .last-bar {
-    font-size: 11px;
-  }
-  .footer-right {
-    margin-right: 10px;
-  }
-}
 }
